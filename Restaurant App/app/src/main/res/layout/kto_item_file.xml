@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/kto_card_view"
+    app:cardCornerRadius="24dp"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:gravity="center"
+        android:background="#B16161">
+
+        <TextView
+            android:id="@+id/kto_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/kto_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Dine-In"
+            android:textSize="18sp"
+            android:paddingVertical="2dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/table_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Table 1"
+            android:textSize="18sp"
+            android:paddingVertical="2dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/kto_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="04:50 PM"
+            android:paddingVertical="2dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/kto_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="Sahi-Panner &amp; Roti"
+            android:textSize="18sp"
+            android:textColor="#ECFF36"
+            android:fontFamily="sans-serif" />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

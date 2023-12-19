@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Restaurant App</string>
+    <string name="log_in">Login</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">LogIn</string>
+    <string name="restaurant_app">Restaurant App</string>
+    <string name="dashboard">DashBoard</string>
+    <string name="categories">Categories</string>
+    <string name="order">Order</string>
+    <string name="kto">KTO</string>
+    <string name="total_sale">Total Sale</string>
+</resources>
